@@ -1,0 +1,30 @@
+exports.run = (client, message, args, user, channel, self) => {
+
+  client.say(channel,
+    `
+    PowerUpL
+    outtapOPG
+    outtapOPG
+    outtapOPG
+    PowerUpR
+    outtapTURNUPOPG
+    outtapTURNUPOPG
+    outtapTURNUPOPG
+    outtapTURNUPOPG
+    outtapTURNUPOPG
+    outtapTURNUPOPG
+    outtapTURNUPOPG
+    outtapTURNUPOPG
+    outtapTURNUPOPG
+    outtapOPG
+    outtapOPG
+    outtapOPG
+    outtapOPG
+    outtapOPG
+    outtapOPG
+    outtapOPG
+    outtapOPG
+    outtapOPG
+    `
+  )
+}

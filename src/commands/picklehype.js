@@ -1,0 +1,30 @@
+exports.run = (client, message, args, user, channel, self) => {
+
+  client.say(channel,
+  `
+  pandap43Hype
+  pandap43Hype
+  pandap43Hype
+  pandap43Hype
+  pandap43Hype
+  pandap43Hype
+  pandap43Hype
+  pandap43Hype
+  pandap43Hype
+  pandap43Hype
+  pandap43Hype
+  pandap43Hype
+  pandap43Hype
+  pandap43Hype
+  pandap43Hype
+  pandap43Hype
+  pandap43Hype
+  pandap43Hype
+  pandap43Hype
+  pandap43Hype
+  pandap43Hype
+  pandap43Hype
+  pandap43Hype 
+  `
+  )
+}

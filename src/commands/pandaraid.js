@@ -1,0 +1,40 @@
+exports.run = (client, message, args, user, channel, self) => {
+
+  client.say(channel,
+  `
+  TombRaid
+  pandap43Raid
+  TombRaid
+  pandap43Raid
+  TombRaid
+  TombRaid
+  pandap43GG
+  pandap43GG
+  pandap43GG
+  TombRaid
+  pandap43Hype
+  pandap43Hype
+  pandap43Hype
+  TombRaid
+  TombRaid
+  pandap43GG
+  pandap43GG
+  pandap43GG
+  TombRaid
+  pandap43Hype
+  pandap43Hype
+  pandap43Hype
+  TombRaid
+  TombRaid
+  pandap43Pizza
+  pandap43Raid
+  pandap43Pizza
+  pandap43Raid
+  pandap43Pizza
+  pandap43Raid
+  pandap43Pizza
+  TombRaid
+
+  `
+  )
+}

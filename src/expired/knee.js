@@ -1,0 +1,39 @@
+exports.run = (client, message, args, user, channel, self) => {
+
+  client.say(channel,
+  `
+  kneedeHype
+  kneedeHype
+  kneedeHype
+  kneedeHype
+  kneedeHype
+  kneedeEP2005
+  kneedeDeepthumb
+  kneedeDeepthumb
+  kneedeDeepthumb
+  kneedeKD
+  kneedeSad
+  kneedeSad
+  kneedeSad
+  kneedeEP2005
+  kneedeEP2005
+  kneedeDeepthumb
+  kneedeDeepthumb
+  kneedeDeepthumb
+  kneedeKD
+  kneedeSad
+  kneedeSad
+  kneedeSad
+  kneedeEP2005
+  kneedeEP2005
+  kneedeDeepthumb
+  kneedeDeepthumb
+  kneedeDeepthumb
+  kneedeKD
+  kneedeSad
+  kneedeSad
+  kneedeSad
+  kneedeEP2005
+  `
+  )
+}
