@@ -14,7 +14,7 @@ const channels = [
   // '#kainecloud',
   // '#lordvalgaming',
   // '#lumberjerks',
-  // '#maverickaa2100',
+  '#maverickaa2100',
   // '#mattbot22881',
   // '#notmatt22881',
   // '#optimusslimetv',
