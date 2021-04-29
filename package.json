@@ -4,7 +4,8 @@
   "description": "A Twitch Chat/Moderator/Game Bot in development",
   "main": "src",
   "scripts": {
-    "start": "nodemon ."
+    "start": "node .", 
+    "dev": "nodemon ."
   },
   "author": "Matt",
   "license": "ISC",

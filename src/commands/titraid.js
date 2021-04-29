@@ -32,8 +32,6 @@ exports.run = (client, message, args, user, channel, self) => {
       titang5Gaim
       titang5Gaim
       TombRaid
-      TombRaid
-      TombRaid
       `
     )
   }

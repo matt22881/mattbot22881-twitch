@@ -10,7 +10,7 @@ const options = {
 	options: { debug: true },
 	connection: {
     reconnect: true,
-    secure: true,
+    // secure: true,
     timeout: 180000,
     reconnectDecay: 1.4,
     reconnectInterval: 1000,
@@ -41,8 +41,16 @@ client.on("part", (channel, username, self) => {
   }
 })
 
+// client.on("message", (channel, userstate, message, self) => {
+//   console.log(`message:message: `, message.id)
+//   console.log(`message:userstate:`, userstate)
+// })
+
 client.on("chat", (channel, userstate, message, self) => {
   if (self) return;
+
+  // console.log(`chat:message: `, message)
+  // console.log(`chat:userstate:`, userstate)
 
   const args = message.slice(prefix.length).trim().split(/ +/g);
   const cmd = args.shift().toLowerCase();
