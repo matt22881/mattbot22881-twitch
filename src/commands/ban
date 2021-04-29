@@ -1,0 +1,12 @@
+exports.run = (client, message, args, user, channel, self) => {
+
+    client.ban(channel, banned=args.shift, args.join(' '))
+      .then(res => {
+          client.say(channel, `${res.username} has been banned from ${res.channel} for ${res.reason}`)
+      })
+      .catch(err => {
+          client.say(channel, `Error banning ${banned}`, err)
+      })
+  
+  }
+  

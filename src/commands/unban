@@ -1,0 +1,18 @@
+exports.run = (client, message, args, user, channel, self) => {
+    console.log('args: ', args)
+    if (args.length === 0){
+        client.say(channel, `Who should i ban? You?`)
+    } else { 
+        const banned = args.shift
+        if (args.length > 0){
+            const reason = args.join(' ')
+        } else const reason = 'no reason given'
+        client.unban(channel, banned, reason)
+        .then(res => {
+            client.say(channel, `${res.username} has been unbanned from ${res.channel} for ${res.reason}`)
+        })
+        .catch(err => {
+            client.say(channel, `Error unbanning ${banned}`, err)
+        })
+    }
+}
