@@ -25,13 +25,6 @@ exports.run = (client, message, args, user, channel, self) => {
       TombRaid
       TombRaid
       TombRaid
-      TombRaid
-      TombRaid
-      TombRaid
-      titang5Gaim
-      titang5Gaim
-      titang5Gaim
-      TombRaid
       `
     )
   }

@@ -5,6 +5,7 @@ const users = [
   'alun27gaming',
   'badmotor',
   'bewareclips',
+  'bigbeardh_',
   'captaindabbeard',
   'c4vsavage',
   'dabsterreaper12',
