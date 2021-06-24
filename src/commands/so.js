@@ -6,7 +6,7 @@ exports.run = (client, message, args, user, channel, self) => {
   } else {target = arg}
   client.say(channel,
     `
-    ${user.username} says you should go check out ${target}  They are really cool and stuff.  That's all i know, sorry i'm just a fill-in. You'll find them at: https://www.twitch.tv/${arg}
+    ${user.username} says you should go check out ${target}  They are really cool and stuff.  That's all i know, sorry i'm just a fill-in. You'll find them at: https://www.twitch.tv/${target}
     `
   )
 
